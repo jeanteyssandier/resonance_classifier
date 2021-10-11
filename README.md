@@ -21,8 +21,8 @@ Run setup_data.py to prepare this data for the neural network ([taken from here]
 
 ## The trainer
 
-A convolutional neural network (CNN) is then applied to the data. It learns from the images themselves, not from the time series. It uses the early EarlyStopping feature to stop once a good enough model has been found. See model/trainer.ipynb.
+A convolutional neural network (CNN) is then applied to the data. It learns from the images themselves, not from the time series. It uses the early EarlyStopping feature to stop once a good enough model has been found. See [model/trainer.ipynb](model/trainer.ipynb).
 
 ## Application
 
-In the res_finder.ipynb notebook, a system of 2 planets is initiated near the 3:2 resonance. The script finds the nearest potential resonances (here the 3:2, 11:7 and 14:9), plot their resonant angles, run the image through the CNN, and deduce if the angle is librating or not, and if so, around which value (currently only 0 or 180).
+In the [res_finder.ipynb](res_finder.ipynb) notebook, a system of 2 planets is initiated near the 3:2 resonance. The script finds the nearest potential resonances (here the 3:2, 11:7 and 14:9), plot their resonant angles, run the image through the CNN, and deduce if the angle is librating or not, and if so, around which value (currently only 0 or 180).
